@@ -9,27 +9,26 @@
 <style type="text/css">
 html { -webkit-text-size-adjust:none; -ms-text-size-adjust: none;}
 
+@media only screen and (max-device-width: 660px), only screen and (max-width: 660px) { 
+	table[class="table"]{
+		width: 100% !important;
+	}
+	table[class="table"] .logo img{
+		width: 100%;
+	}
+}
+
 </style>
 
 </head>
 <body style="padding:0px;margin:0px;">
 
-
-	<table style="border-collapse: collapse" cellpadding="0" cellspacing="0" border="0" width="100%">
-		<tr>
-			<td align="center" height="100%" bgcolor="#f8f8f8">
-				<!-- padding --><div style="height: 50px; line-height:50px; font-size:8px;">&nbsp;</div>
-
-<table style="border-collapse: collapse" cellpadding="0" cellspacing="0" border="0" width="630">
+<table style="border-collapse: collapse" cellpadding="0" cellspacing="0" border="0" width="100%">
 	<tr>
-		<td width="15" headers="15" valign="top"><img src="http://gfb.proverstka.com.ua/images/tl.gif" width="15" height="15" alt="" style="display: block"></td>
-		<td background="http://gfb.proverstka.com.ua/images/t.gif" style="background-image: url(http://gfb.proverstka.com.ua/images/t.gif); background-repeat: repeat-x; background-position: left bottom" valign="top" height="15"></td>
-		<td width="15" headers="15" valign="top"><img src="http://gfb.proverstka.com.ua/images/tr.gif" width="15" height="15" alt="" style="display: block"></td>
-	</tr>
-	<tr>
-		<td background="http://gfb.proverstka.com.ua/images/l.gif" style="background-image: url(http://gfb.proverstka.com.ua/images/l.gif); background-position: right top; background-repeat: repeat-y;" valign="top" width="15"></td>
-		<td width="600">
-			<table style="border-collapse: collapse" cellpadding="0" cellspacing="0" border="0" width="100%">
+		<td align="center" height="100%" bgcolor="#ffffff">
+			<!-- padding --><div style="height: 50px; line-height:50px; font-size:8px;">&nbsp;</div>
+
+			<table style="border-collapse: collapse" cellpadding="0" cellspacing="0" border="0" width="600" class="table">
 				<tr>
 					<td bgcolor="#ffffff">
 						<!-- padding --><div style="height: 28px; line-height:28px; font-size:8px;">&nbsp;</div>
@@ -38,7 +37,7 @@ html { -webkit-text-size-adjust:none; -ms-text-size-adjust: none;}
 							<tr>
 								<td width="30">&nbsp;</td>
 								<td>
-									<a href="#" target="_blank"><img src="http://gfb.proverstka.com.ua/images/logo.jpg" alt="Global Finance Broker" width="284" height="40" border="0" style="display: block;" /></a>
+									<a href="#" target="_blank" class="logo"><img src="http://gfb.proverstka.com.ua/images/logo.jpg" alt="Global Finance Broker" width="284" height="40" border="0" style="display: block;" /></a>
 								</td>
 							</tr>
 						</table>
@@ -113,7 +112,7 @@ html { -webkit-text-size-adjust:none; -ms-text-size-adjust: none;}
 				</tr>
 			</table>
 			
-			<table style="border-collapse: collapse" cellpadding="0" cellspacing="0" border="0" width="100%">
+			<table style="border-collapse: collapse" cellpadding="0" cellspacing="0" border="0" width="600" class="table">
 				<tr>
 					<td bgcolor="#f7f7f7">
 						<table style="border-collapse: collapse" cellpadding="0" cellspacing="0" border="0" width="100%">
@@ -136,20 +135,11 @@ html { -webkit-text-size-adjust:none; -ms-text-size-adjust: none;}
 					</td>
 				</tr>
 			</table>
+
+			<!-- padding --><div style="height: 50px; line-height:50px; font-size:8px;">&nbsp;</div>
 		</td>
-		<td background="http://gfb.proverstka.com.ua/images/r.gif" style="background-image: url(http://gfb.proverstka.com.ua/images/r.gif); background-position: left top; background-repeat: repeat-y;" valign="top" width="15"></td>
-	</tr>
-	<tr>
-		<td width="15" headers="15" valign="top"><img src="http://gfb.proverstka.com.ua/images/bl.gif" width="15" height="15" alt="" style="display: block"></td>
-		<td background="http://gfb.proverstka.com.ua/images/b.gif" style="background-image: url(http://gfb.proverstka.com.ua/images/b.gif); background-position: left top; background-repeat: repeat-x;" valign="top"></td>
-		<td width="15" headers="15" valign="top"><img src="http://gfb.proverstka.com.ua/images/br.gif" width="15" height="15" alt="" style="display: block"></td>
 	</tr>
 </table>
-
-				<!-- padding --><div style="height: 50px; line-height:50px; font-size:8px;">&nbsp;</div>
-			</td>
-		</tr>
-	</table>
 
 </body>
 </html>
